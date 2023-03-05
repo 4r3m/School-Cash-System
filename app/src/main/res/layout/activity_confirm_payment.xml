@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/timber_wolf"
+    tools:context=".show_qrcode_tab">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="691dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/round_edges"
+        android:backgroundTint="@color/burgundy"
+        app:layout_constraintBottom_toTopOf="@+id/btn_scan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textScanQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="AMOUNT TO RECEIVE"
+            android:textColor="@color/timber_wolf"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/full_round_edges"
+        android:enabled="false"
+        android:onClick="onclickReceivePayment"
+        android:text="CONFIRM"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

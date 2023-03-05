@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BEACOIN</string>
+    <string name="user_name">UNKNOWN USER</string>
+    <string name="grade_section">Grade 12 - Euclid</string>
+    <string name="available_balance">₱5,000</string>
+    <string name="cash_in">+200php</string>
+    <string name="cash_out">-200</string>
+    <string name="string_show_qr">SHOW QR</string>
+    <string name="string_scan_qr">SCAN</string>
+    <string name="l_rn">LRN: 1172180609965</string>
+    <string name="user_1">CANTEEN CASHIER</string>
+    <string name="user_2">SCHOOL ACCOUNTANT</string>
+    <string name="user_3">STUDENT ONE</string>
+    <string name="user_4">STUDENT TWO</string>
+    <string name="user_5">BOOKSTORE</string>
+    <string name="title_activity_scan_qrcode_tab">scan_qrcode_tab</string>
+    <string name="cashier_lrn">401647156237</string>
+    <string name="accountant_lrn">107631100121</string>
+    <string name="student1_lrn">401647150221</string>
+    <string name="student2_lrn">107622100091 </string>
+    <string name="bookstore_lrn">117218060115</string>
+    <string name="download">DOWNLOAD </string>
+    <string name="receipt">RECEIPT </string>
+    <string name="receive_or_sent">RECEIVED</string>
+    <string name="from_or_to">From</string>
+    <string name="org">Organization</string>
+    <string name="ref">0001 327 738493</string>
+    <string name="date">feb 26, 2023 3:12pm</string>
+    <string name="disclaimer">Disclaimer: This is not an official receipt. If you wish to have an official receipt for this transaction, please download this transaction receipt and email finance@bec.edu.ph</string>
+    <string name="instructions">"\nInstructions:
+
+1. Before you can use the app you have to get your account to Registrar.
+2. You can change your password in settings >profile >password.
+3. To cash-in, you can get an amount by scanning a fellow student's  and Canteen Cashier's QR Code.
+4. To Scan, you must enter an amount first before you can proceed to Scan QR Code.
+5. To pay for purchases in canteen and tuition fee to the School Accountant, you will simply show and let them scan your QR Code."
+</string>
+
+    <string name="formatted">%.2f</string>
+
+    <string name="title_activity_set_balance">Set_Balance</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

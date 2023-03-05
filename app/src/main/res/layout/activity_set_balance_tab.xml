@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".set_balance_tab">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/upper_round_edges"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/set4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <EditText
+            android:id="@+id/set5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/user_5"
+            android:textColor="@color/timber_wolf"
+            app:layout_constraintEnd_toEndOf="@+id/set3"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/set3"
+            app:layout_constraintTop_toBottomOf="@+id/set4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/user_4"
+            android:textColor="@color/timber_wolf"
+            app:layout_constraintEnd_toEndOf="@+id/set3"
+            app:layout_constraintStart_toStartOf="@+id/set3"
+            app:layout_constraintTop_toBottomOf="@+id/set3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/user_3"
+            android:textColor="@color/timber_wolf"
+            app:layout_constraintEnd_toEndOf="@+id/set2"
+            app:layout_constraintStart_toStartOf="@+id/set2"
+            app:layout_constraintTop_toBottomOf="@+id/set2" />
+
+        <EditText
+            android:id="@+id/set3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <EditText
+            android:id="@+id/set2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/user_2"
+            android:textColor="@color/timber_wolf"
+            app:layout_constraintEnd_toEndOf="@+id/set1"
+            app:layout_constraintStart_toStartOf="@+id/set1"
+            app:layout_constraintTop_toBottomOf="@+id/set1" />
+
+        <EditText
+            android:id="@+id/set1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edge_input"
+            android:backgroundTint="@color/timber_wolf"
+            android:ems="10"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/burgundy"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/user_1"
+            android:textColor="@color/timber_wolf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/full_round_edges"
+        android:backgroundTint="@color/timber_wolf"
+        android:onClick="OnClickSet"
+        android:text="SET"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
